@@ -1,0 +1,205 @@
+ @import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*
+{
+    padding: 0px;
+    margin: 0px;
+    /*
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Londrina Outline', cursive;
+    */
+}
+main
+{
+    background-image: url(./img/pexels-stephan-seeber-1054218\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.navbar
+{
+    background-color: rgba(0, 0, 0, .5) ;
+    width: 100%;
+    height: 10vh;
+}
+
+.logo
+{
+    font-size: 48px;
+    font-family: 'Londrina Outline', cursive;
+    margin-top:15px;
+    margin-left: 80px;
+    display: inline-block;
+}
+
+.logo span
+{
+    font-size: 34px;
+    
+}
+
+.logo a
+{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+ul,li
+{
+    display: inline-block;
+}
+
+ul
+{
+    float: right;
+    text-align: center;
+    width: 70%;
+    height: 10vh;
+}
+
+ul .media
+{
+    display: none;
+    color: aliceblue;
+}
+
+li
+{
+    margin-top: 28px;
+    font-size: 22px;
+    color: black;
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+li:hover
+{
+    color: aliceblue;
+    transform: scale(1.1);
+}
+
+.btn
+{
+    margin-left: 10%;   
+    width: 20vh;
+    height: 5vh;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 0.3s, background-color 0.3s;
+}
+    
+.btn:hover
+{
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 4px;
+    transform: scale(1.1);
+}
+
+.btn-1
+{
+    margin-top: 2%;
+    width: 20vh;
+    height: 5vh;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+    
+.btn-1:hover
+{
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 4px;
+    transform: scale(1.1);
+}
+
+
+.hero
+{
+    width: 88%;
+    background-color: rgba(0, 0, 0, .5);
+    height: 72vh;
+    margin: 6%;
+}
+
+.hero-section h1
+{
+     color: aliceblue;
+     font-family: 'Londrina Outline', cursive;
+     padding-top: 15%;
+     padding-left: 5%;
+     font-weight: 400;
+     font-size: 38px;
+     display: inline-block;
+}
+
+.hero-section h1 span
+{  
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.hero-section img
+{
+    float: right;
+    margin-top: 7%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==================================================================== media query for smart phone ===================================================*/
+
+@media screen and (max-width: 600px) {
+
+    ul a
+    {
+        display: none;
+    }
+ul .media
+{
+    display: inline-block;
+    text-align: right;
+    color: aliceblue;
+}
+  }
